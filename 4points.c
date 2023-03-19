@@ -97,10 +97,7 @@ int main(int argc, char *argv[]) {
         // Создаём массивы для обоих строк, в которых будем отмечать вхождение того или иного символа ASCII в строку.
         int ascii1[128] = {0};
         int ascii2[128] = {0};
-        int i = 0, count = -1;
-        for (int j = 0; j < strlen(buffer); ++j) {
-            res[count++] = buffer[j];
-        }
+        int i = -1, count = -1;
         // Считываем символы первой строки (до символа '\n') и заполняем массив ascii1
         while (buffer[i] != '\n') {
             if (buffer[i] != '\n' && ascii1[(int) buffer[i]] == 0) {
@@ -128,6 +125,8 @@ int main(int argc, char *argv[]) {
                 res[count++] = j;
             }
         }
+
+        res[count++] = '\0';
 
         // Записываем результат в канал
         write(fd2[1], res, strlen(res) + 1);
