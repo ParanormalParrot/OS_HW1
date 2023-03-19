@@ -53,12 +53,12 @@ int main(int argc, char *argv[]) {
     if (pid1 == 0) {
         // Дочерний процесс - первый процесс
 
-        // Read the input file into a buffer
+        // Запись содержимого входного файла в буфер
         char input_buffer[buffer_size];
         size_t input_size = fread(input_buffer, 1, buffer_size, input_file);
         fclose(input_file);
 
-        // Write the input buffer to the named pipe
+        // Запись содержимого входного файла в именованный канал
         fifo1 = open("fifo1", O_WRONLY);
         write(fifo1, input_buffer, input_size);
         close(fifo1);
@@ -121,7 +121,7 @@ int main(int argc, char *argv[]) {
         }
         res[count++] = '\0';
 
-        // Write the res to the named pipe
+        // Записываем результат в именнованный канал.
         fifo2 = open("fifo2", O_WRONLY);
         write(fifo2, res, strlen(res) + 1);
         close(fifo2);
@@ -139,7 +139,7 @@ int main(int argc, char *argv[]) {
     }
 
     if (pid3 == 0) {
-        // Дочерний процесс - третий процесс
+        // Третий дочерний процесс
 
         // Читаем данные из named pipe
         fifo2 = open("fifo2", O_RDONLY);

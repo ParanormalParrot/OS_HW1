@@ -13,8 +13,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="774e22e7-8916-4e47-bcf7-d64403996c0a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4points.c" beforeDir="false" afterPath="$PROJECT_DIR$/4points.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5points.c" beforeDir="false" afterPath="$PROJECT_DIR$/5points.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6points.c" beforeDir="false" afterPath="$PROJECT_DIR$/6points.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7points.c" beforeDir="false" afterPath="$PROJECT_DIR$/7points.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/input1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/input2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/input3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/input4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/input4.txt" afterDir="false" />
@@ -73,6 +79,10 @@
       <workItem from="1679244809134" duration="589000" />
       <workItem from="1679251901771" duration="32000" />
       <workItem from="1679252026504" duration="184000" />
+      <workItem from="1679249519418" duration="2000" />
+      <workItem from="1679249586769" duration="631000" />
+      <workItem from="1679251533532" duration="481000" />
+      <workItem from="1679252145955" duration="594000" />
     </task>
     <servers />
   </component>
